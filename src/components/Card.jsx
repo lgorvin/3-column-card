@@ -4,7 +4,7 @@ const Card = () => {
   return (
     <div className="flex justify-center items-center lg:h-screen">
       <div className="grid grid-cols-1 lg:grid-cols-3 my-8">
-        <div className="card1 rounded-t-lg lg:rounded-l-lg lg:rounded-tl-lg lg:rounded-t-none h-[450px] lg:h-[500px] w-[350px]">
+        <div className="card1 hover:scale-110 rounded-t-lg lg:rounded-l-lg lg:rounded-tl-lg lg:rounded-t-none h-[450px] lg:h-[500px] w-[350px] duration-200">
           <svg
             width="64"
             height="40"
@@ -32,7 +32,7 @@ const Card = () => {
             Learn More
           </button>
         </div>
-        <div className="card2 h-[450px] lg:h-[500px] w-[350px]">
+        <div className="card2 h-[450px] lg:h-[500px] w-[350px] hover:scale-110 duration-200">
           <svg
             width="64"
             height="40"
@@ -59,7 +59,7 @@ const Card = () => {
             Learn More
           </button>
         </div>
-        <div className="card3 rounded-b-lg lg:rounded-l-lg lg:rounded-tr-lg lg:rounded-t-none lg:rounded-bl-none h-[450px] lg:h-[500px] w-[350px]">
+        <div className="card3 rounded-b-lg lg:rounded-l-lg lg:rounded-tr-lg lg:rounded-t-none lg:rounded-bl-none h-[450px] lg:h-[500px] w-[350px] hover:scale-110 duration-200">
           <svg
             width="64"
             height="40"
